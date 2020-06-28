@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+    font-family: "Helvetica", sans-serif;
+    opacity: 0.9;
+    font-size: 22px;
+    color: seashell;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    background-color: black;
+}
+
+.teacozy {
+    margin-left: 10px;
+}
+
+nav {
+    float: right;
+    margin-left: auto;
+}
+
+a {
+  color: seashell;
+  padding: 10px;
+  margin-right: 10px;
+}
+.background {
+width: 1200px;
+height: 700px;
+z-index: 1;
+position: relative;
+margin-bottom: 50px;
+}
+
+#Our  {
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: block; 
+    align-items: center; 
+}
+#Our h2, h4 {
+    margin: 15px;
+}
+
+.featured img {
+width: 300px;
+height: 200px;
+padding-bottom: 10px;
+    }
+
+.featured {
+    width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+  
+}
+figcaption {
+    font-size: 1em;
+    font-weight: bolder;
+}
+figure {
+    margin: 15px;
+}
+
+#locations {
+    width: 1200px;
+    opacity: 1;
+    margin: 0 auto;
+    
+}
+
+#locations img {
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+ 
+    
+}
+#locations h2 {
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 80px;
+    
+} 
+
+.l {
+    width:1200px;
+    height: 500px;
+   position: absolute;
+   z-index: 2;  
+   display: flex;     
+   align-items: center;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.A {
+   margin: 40px;
+    width: 300px;
+    background-color: black; 
+    
+}
+
+.contact {
+    height: 200px;
+}
+footer {
+    margin-left: 20px;
+    text-align: left;
+}
+p {
+    line-height: 2.5;
+}
